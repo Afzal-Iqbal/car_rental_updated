@@ -1,0 +1,76 @@
+# Qt build artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# Qt generated files
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.moc
+
+# Build directories
+debug/
+release/
+build/
+build-*/
+
+# Qt project files that should be ignored
+Makefile*
+!Makefile.am
+!Makefile.in
+.qmake.stash
+*.pro.user
+*.pro.user.*
+
+# Qt Creator files
+*.autosave
+*.creator
+*.creator.user
+*.workspace
+
+# Database files (uncomment if you don't want to commit the database)
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE files
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Log files
+*.log
+
+# Compiled executables
+*.exe
+*.app
+
+# Qt Cache
+.qtc_clangd/
+Makefile.Debug
+Makefile.Release
+release/car_rental.db
+release/CarRental.exe
+config.bat
+node_modules
